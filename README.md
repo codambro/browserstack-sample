@@ -16,3 +16,4 @@ Launch with:
 ```
 npm run test
 ```
+See on browserstack dashboard that the page does not load with safari.
