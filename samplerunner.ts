@@ -8,14 +8,7 @@ async function main() {
 
   let failedCount = 0;
 
-  const testcafe = await createTestCafe(
-    hostname,
-    undefined,
-    undefined,
-    undefined,
-    undefined,
-    true
-  );
+  const testcafe = await createTestCafe();
 
   try {
     const runner = testcafe.createRunner();
